@@ -4,15 +4,18 @@ title: About Me
 permalink: /aboutme/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My name is Nguyễn Mạnh Dũng, my ID is 18020370 and you're watching my blog. 
 
 
-[jekyll-organization]: https://github.com/jekyll
+If you need to contact me, make sure that you try one of these method:
+
+- Through my [Facebook](https://facebook.com/nmd2000)
+
+- Or my [e-mail](manhdung20112000@gmail.com)
+
+You can find my work at GitHub:
+
+- [Github](https://github.com/manhdung20112000)
+

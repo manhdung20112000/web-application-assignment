@@ -21,7 +21,7 @@
 title: My blog
 email: manhdung20112000@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Nguyen Manh Dung. I'm a Computer Scientist (CS) at University of Engineering and Technology (UET).
+  Hi! I'm NMD and you're watching my blog! <3
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
