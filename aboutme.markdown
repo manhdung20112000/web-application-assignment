@@ -6,7 +6,7 @@ permalink: /aboutme/
 
 Hi!
 
-My name is Nguyễn Mạnh Dũng, my ID is 18020370 and you're watching my blog. 
+My name is Nguyễn Mạnh Dũng, my ID is 18020370.
 
 
 If you need to contact me, make sure that you try one of these method:

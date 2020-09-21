@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The newtest assignment"
-date: 2020-09-17 11:36:30 +0700
+date: 2020-09-20 11:36:30 +0700
 categories: jekyll update
 ---
 
