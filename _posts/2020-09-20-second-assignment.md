@@ -6,6 +6,6 @@ categories: jekyll update
 ---
 
 Hi! This is week 2 of my web developments course.
-For short, this week's assignment was to create a page with the given struture.
+For short, this week's assignment was to create a page with the given structure.
 
 Check it out [HERE](https://manhdung20112000.github.io/bt-w1.html)
