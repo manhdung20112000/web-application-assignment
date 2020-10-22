@@ -47,16 +47,16 @@ class Calculator {
                 result = this.previousNumber % this.currentNumber;
                 break;
             case "+":
-                result = this.currentNumber + this.previousNumber;
+                result = this.previousNumber + this.currentNumber;
                 break;
             case "-":
-                result = this.currentNumber - this.previousNumber;
+                result = this.previousNumber - this.currentNumber;
                 break;
             case "÷":
                 result = this.previousNumber / this.currentNumber;
                 break;
             case "×":
-                result = this.currentNumber * this.previousNumber;
+                result = this.previousNumber * this.currentNumber ;
                 break;
             default:
                 return;
@@ -74,6 +74,7 @@ class Calculator {
         if(this.operation == undefined){
             this.currentOperandTextElement.innerText = this.currentNumber;
         }
+
         else {
             if (this.currentNumber == 0) {
                 this.currentOperandTextElement.innerText = this.previousNumber + this.operation;
