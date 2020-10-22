@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The newtest assignment"
+title: "Multi-pages structure"
 date: 2020-09-26 
 categories: jekyll update
 ---
