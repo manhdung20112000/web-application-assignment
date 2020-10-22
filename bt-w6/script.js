@@ -7,17 +7,15 @@ class Calculator {
     }
 
     appendNumber(number) {
-        let temp_str = this.currentNumber.toString();
-        if (number == '.') {
-            if (temp_str.includes('.')) return;
+        let temp = this.currentNumber.toString();
+        if (number === '.') {
+            if (temp.includes('.')) return;
             else {
-
+                this.currentNumber = this.currentNumber.toString() + number.toString();
+                return;
             }
-
-        else
-        
-        this.currentNumber = this.currentNumber*10 + parseInt(number, 10)
-        
+        }
+        this.currentNumber = parseFloat(this.currentNumber.toString() + number.toString());
     }
 
     clear() {
