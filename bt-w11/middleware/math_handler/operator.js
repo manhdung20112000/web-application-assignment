@@ -1,7 +1,7 @@
 const { State } = require('../../models');
 
 module.exports = (req, res, next) => {
-    let { currentNumber, previousNumber, operation, newExpression } = State.get();
+    let { currentNumber, previousNumber, operation } = State.get();
     const { operand } = req.params;
 
     if(operation != undefined) {
@@ -15,6 +15,6 @@ module.exports = (req, res, next) => {
 
     console.log("operation: ", operation);
     
-    State.update({ currentNumber, previousNumber, operation, newExpression});
+    State.update({ currentNumber, previousNumber, operation});
     next();
 };

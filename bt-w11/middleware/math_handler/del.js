@@ -1,7 +1,7 @@
 const { State } = require('../../models');
 
 module.exports = (req, res, next) => {
-    let { currentNumber, previousNumber, operation, newExpression } = State.get();
+    let { currentNumber, previousNumber, operation } = State.get();
 
     let temp = currentNumber.toString();
     temp = temp.slice(0, -1)
@@ -12,6 +12,6 @@ module.exports = (req, res, next) => {
     
     else {currentNumber = 0;}
 
-    State.update({ currentNumber, previousNumber, operation, newExpression});
+    State.update({ currentNumber, previousNumber, operation});
     next();
 };

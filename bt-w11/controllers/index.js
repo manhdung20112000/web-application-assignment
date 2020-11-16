@@ -15,12 +15,12 @@ module.exports.render = (req, res, next) => {
 
         else {
             if (currentNumber == 0) {
-                result_txt = previousNumber + operation;
-                // next();
-                return;    
+                result_txt = previousNumber + operation;   
             }
 
-            result_txt = previousNumber + operation + currentNumber;
+            else {
+                result_txt = previousNumber + operation + currentNumber;
+            }
         }
 
         res.render('index', {result_txt});

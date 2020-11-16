@@ -1,26 +1,27 @@
 const { State } = require('../../models');
 
 module.exports = (req, res, next) => {
-    let { currentNumber, previousNumber, operation, newExpression } = State.get();
+    let { currentNumber, previousNumber, operation } = State.get();
 
     previous = parseFloat(previousNumber)
     current = parseFloat(currentNumber)
 
+
     let result;
         switch(operation) {
-            case "percent":
+            case "%":
                 result = previous % current;
                 break;
-            case "add":
+            case "+":
                 result = previous + current;
                 break;
-            case "substract":
+            case "-":
                 result = previous - current;
                 break;
-            case "div":
+            case "÷":
                 result = previous / current;
                 break;
-            case "mul":
+            case "×":
                 result = previous * current ;
                 break;
             default:
@@ -31,6 +32,6 @@ module.exports = (req, res, next) => {
         previousNumber = "0";
         operation = undefined;
 
-    State.update({currentNumber, previousNumber, operation, newExpression})
+    State.update({currentNumber, previousNumber, operation})
     next();
 };
