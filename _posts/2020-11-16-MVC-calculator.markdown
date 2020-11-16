@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "MVC Calculator"
-date:
 categories: jekyll update
 ---
 

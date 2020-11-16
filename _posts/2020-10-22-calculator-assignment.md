@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The newtest assignment"
+title: "The "JS" Calculator
 categories: jekyll update
 ---
 
