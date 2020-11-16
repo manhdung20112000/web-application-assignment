@@ -16,7 +16,7 @@ module.exports.render = (req, res, next) => {
         else {
             if (currentNumber == 0) {
                 result_txt = previousNumber + operation;
-                next();
+                // next();
                 return;    
             }
 
