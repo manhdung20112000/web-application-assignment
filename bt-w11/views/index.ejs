@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator-grid">
+        <div class="console">
+            <div data-operand class="current-operand">
+                <%=result_txt%>
+            </div>
+        </div>
+        <a data-operation class="function" href="/function/clear">AC</a>
+        <a data-operation class="function" href="/function/del">DEL</a>
+        <a data-operation class="function" href="/operator/percent">%</a>
+        <a data-operation class="operation" href="/operator/div">÷</a>
+        <a data-number href="/number/1">1</a>
+        <a data-number href="/number/2">2</a>
+        <a data-number href="/number/3">3</a>
+        <a data-operation class="operation" href="/operator/mul">×</a>
+        <a data-number href="/number/4">4</a>
+        <a data-number href="/number/5">5</a>
+        <a data-number href="/number/6">6</a>
+        <a data-operation class="operation" href="/operator/add">+</a>
+        <a data-number href="/number/7">7</a>
+        <a data-number href="/number/8">8</a>
+        <a data-number href="/number/9">9</a>
+        <a data-operation class="operation" href="/operator/sub">-</a>
+        <a data-number class="span-2" href="/number/0">0</a>
+        <a data-number href="/number/point">.</a>
+        <a data-operation class="operation" href="/operator/equal">=</a>
+    </div>    
+</body>
+
+</html>
