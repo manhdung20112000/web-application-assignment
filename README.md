@@ -1,5 +1,8 @@
 # Practise Web development 2020
 
+[Update] This repository was my assignment for web application course in 2020, I recently change its name and remove my github pages generate from this repository.
+The domain https://manhdung20112000.github.io is holding my resume from now 🚀
+
 #### This repository is public at: https://manhdung20112000.github.io
 
 --------------------------------------------
